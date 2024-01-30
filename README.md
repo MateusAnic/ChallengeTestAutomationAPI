@@ -1,6 +1,6 @@
 # Desafio Sicredi - Mateus Aniceto
 
-Este projeto representa um conjunto abrangente de testes automatizados desenvolvidos para validar a integridade e funcionalidades da API associada a uma aplicação de gerenciamento de produtos eletrônicos. Os testes são elaborados em Java, utilizando os frameworks JUnit e RestAssured, proporcionando uma base sólida para a garantia da qualidade do software.
+Este projeto representa um conjunto abrangente de testes automatizados desenvolvidos para validar a integridade e funcionalidades da API . Os testes são elaborados em Java, utilizando os frameworks JUnit e RestAssured.
 
 ## Informações Mínimas do Projeto
 
