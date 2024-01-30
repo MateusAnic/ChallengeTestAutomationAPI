@@ -1,4 +1,4 @@
-package mateusaniceto.post;
+package mateusaniceto.get;
 
 import mateusaniceto.client.AuthClient;
 import mateusaniceto.model.*;

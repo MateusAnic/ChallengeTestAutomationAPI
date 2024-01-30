@@ -1,6 +1,7 @@
 package mateusaniceto.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,8 +11,8 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Product {
-    @JsonIgnore
     private Integer id;
     private String title;
     private String description;
@@ -22,6 +23,5 @@ public class Product {
     private String brand;
     private String category;
     private String thumbnail;
-    @JsonIgnore
     private List<String> images;
 }

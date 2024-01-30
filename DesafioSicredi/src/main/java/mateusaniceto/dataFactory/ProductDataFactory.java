@@ -1,5 +1,6 @@
 package mateusaniceto.dataFactory;
 
+import mateusaniceto.model.InvalidProduct;
 import mateusaniceto.model.Product;
 import net.datafaker.Faker;
 
@@ -21,5 +22,22 @@ public class ProductDataFactory {
         novoProduto.setThumbnail(faker.internet().domainName());
 
         return novoProduto;
+    }
+
+    public static Product novoProdutoCamposVazios(){
+        Product novoProdutoVazio = new Product();
+        novoProdutoVazio.setTitle(faker.food().dish());
+        novoProdutoVazio.setPrice(faker.number().randomDigit());
+
+        return novoProdutoVazio;
+    }
+
+    public static InvalidProduct novoProdutoInvalido(){
+        InvalidProduct novoProdutoInvalido = new InvalidProduct();
+        novoProdutoInvalido.setName(faker.number().randomDigit());
+        novoProdutoInvalido.setInvalid_value(faker.name().firstName());
+        novoProdutoInvalido.setInvalid_descr(faker.number().randomDouble(2, 1, 10));
+
+        return novoProdutoInvalido;
     }
 }

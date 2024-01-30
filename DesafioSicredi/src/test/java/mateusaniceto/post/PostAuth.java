@@ -61,7 +61,7 @@ public class PostAuth {
 
         String message = loginSemSucesso.getMessage();
 
-        assertThat("Deve exibir uma mensagem dizendo informando que as credenciais são inválidas", message.equals("Invalid credentials"));
+        assertThat("Deve exibir uma mensagem informando que as credenciais são inválidas", message.equals("Invalid credentials"));
     }
 
 
