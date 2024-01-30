@@ -11,7 +11,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import static org.apache.http.HttpStatus.SC_OK;
-import static org.codehaus.groovy.runtime.DefaultGroovyMethods.unique;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 

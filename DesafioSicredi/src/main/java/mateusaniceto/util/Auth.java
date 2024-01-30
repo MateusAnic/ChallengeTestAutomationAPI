@@ -4,7 +4,6 @@ import mateusaniceto.client.AuthClient;
 import mateusaniceto.client.UserClient;
 import mateusaniceto.model.ListUser;
 import mateusaniceto.model.Login;
-import mateusaniceto.model.LoginSucess;
 import mateusaniceto.model.User;
 
 import static org.apache.http.HttpStatus.SC_OK;

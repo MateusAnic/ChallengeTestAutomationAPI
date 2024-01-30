@@ -5,9 +5,7 @@ import io.restassured.response.Response;
 import mateusaniceto.model.Login;
 import mateusaniceto.util.Auth;
 
-import static io.restassured.RestAssured.authentication;
 import static io.restassured.RestAssured.given;
-import static org.apache.http.HttpStatus.SC_OK;
 
 public class AuthClient {
 
