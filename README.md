@@ -1,4 +1,4 @@
-# Desafio Sicredi - Mateus Aniceto
+# Desafio - Mateus Aniceto
 
 Este projeto representa um conjunto abrangente de testes automatizados desenvolvidos para validar a integridade e funcionalidades da API . Os testes são elaborados em Java, utilizando os frameworks JUnit e RestAssured.
 
